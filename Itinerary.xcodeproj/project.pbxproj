@@ -13,7 +13,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		840DF44B20DDF19B005516D5 /* Itienary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Itienary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		840DF44B20DDF19B005516D5 /* Itinerary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Itinerary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		840DF44E20DDF19B005516D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		840DF45520DDF19D005516D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		840DF45820DDF19D005516D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -34,7 +34,7 @@
 		840DF44220DDF19B005516D5 = {
 			isa = PBXGroup;
 			children = (
-				840DF44D20DDF19B005516D5 /* Itienary */,
+				840DF44D20DDF19B005516D5 /* Itinerary */,
 				840DF44C20DDF19B005516D5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -42,12 +42,12 @@
 		840DF44C20DDF19B005516D5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				840DF44B20DDF19B005516D5 /* Itienary.app */,
+				840DF44B20DDF19B005516D5 /* Itinerary.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		840DF44D20DDF19B005516D5 /* Itienary */ = {
+		840DF44D20DDF19B005516D5 /* Itinerary */ = {
 			isa = PBXGroup;
 			children = (
 				840DF44E20DDF19B005516D5 /* AppDelegate.swift */,
@@ -55,15 +55,15 @@
 				840DF45720DDF19D005516D5 /* LaunchScreen.storyboard */,
 				840DF45A20DDF19D005516D5 /* Info.plist */,
 			);
-			path = Itienary;
+			path = Itinerary;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		840DF44A20DDF19B005516D5 /* Itienary */ = {
+		840DF44A20DDF19B005516D5 /* Itinerary */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 840DF45D20DDF19D005516D5 /* Build configuration list for PBXNativeTarget "Itienary" */;
+			buildConfigurationList = 840DF45D20DDF19D005516D5 /* Build configuration list for PBXNativeTarget "Itinerary" */;
 			buildPhases = (
 				840DF44720DDF19B005516D5 /* Sources */,
 				840DF44820DDF19B005516D5 /* Frameworks */,
@@ -73,9 +73,9 @@
 			);
 			dependencies = (
 			);
-			name = Itienary;
+			name = Itinerary;
 			productName = Itienary;
-			productReference = 840DF44B20DDF19B005516D5 /* Itienary.app */;
+			productReference = 840DF44B20DDF19B005516D5 /* Itinerary.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -93,7 +93,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 840DF44620DDF19B005516D5 /* Build configuration list for PBXProject "Itienary" */;
+			buildConfigurationList = 840DF44620DDF19B005516D5 /* Build configuration list for PBXProject "Itinerary" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -106,7 +106,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				840DF44A20DDF19B005516D5 /* Itienary */,
+				840DF44A20DDF19B005516D5 /* Itinerary */,
 			);
 		};
 /* End PBXProject section */
@@ -299,7 +299,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		840DF44620DDF19B005516D5 /* Build configuration list for PBXProject "Itienary" */ = {
+		840DF44620DDF19B005516D5 /* Build configuration list for PBXProject "Itinerary" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				840DF45B20DDF19D005516D5 /* Debug */,
@@ -308,7 +308,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		840DF45D20DDF19D005516D5 /* Build configuration list for PBXNativeTarget "Itienary" */ = {
+		840DF45D20DDF19D005516D5 /* Build configuration list for PBXNativeTarget "Itinerary" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				840DF45E20DDF19D005516D5 /* Debug */,
