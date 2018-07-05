@@ -10,12 +10,12 @@ import Foundation
 
 class TripModel
 {
-    var Title:String!
-    var Id:String!
+    var Title:String
+    let Id:UUID
     
     init (Title:String)
     {
-        Id = UUID().uuidString
+        Id = UUID()
         self.Title = Title
     }
 }

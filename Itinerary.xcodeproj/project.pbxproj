@@ -13,6 +13,8 @@
 		8468423D20EE7A9D001ED102 /* TripModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8468423C20EE7A9D001ED102 /* TripModel.swift */; };
 		8468423F20EE7AB2001ED102 /* TripFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8468423E20EE7AB2001ED102 /* TripFunctions.swift */; };
 		8468424120EE7ACD001ED102 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8468424020EE7ACD001ED102 /* Data.swift */; };
+		8468424520EE9CCD001ED102 /* TripsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8468424420EE9CCD001ED102 /* TripsViewController.swift */; };
+		8468424720EE9D0C001ED102 /* TripsViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8468424620EE9D0C001ED102 /* TripsViewController.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		8468423C20EE7A9D001ED102 /* TripModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripModel.swift; sourceTree = "<group>"; };
 		8468423E20EE7AB2001ED102 /* TripFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripFunctions.swift; sourceTree = "<group>"; };
 		8468424020EE7ACD001ED102 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		8468424420EE9CCD001ED102 /* TripsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripsViewController.swift; sourceTree = "<group>"; };
+		8468424620EE9D0C001ED102 /* TripsViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TripsViewController.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		840DF44D20DDF19B005516D5 /* Itinerary */ = {
 			isa = PBXGroup;
 			children = (
+				8468424220EE9B27001ED102 /* Views */,
 				8468423A20EE7A3E001ED102 /* Model */,
 				840DF44E20DDF19B005516D5 /* AppDelegate.swift */,
 				840DF45520DDF19D005516D5 /* Assets.xcassets */,
@@ -81,6 +86,23 @@
 				8468423E20EE7AB2001ED102 /* TripFunctions.swift */,
 			);
 			path = Trip;
+			sourceTree = "<group>";
+		};
+		8468424220EE9B27001ED102 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8468424320EE9B33001ED102 /* TripsViewController */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8468424320EE9B33001ED102 /* TripsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8468424420EE9CCD001ED102 /* TripsViewController.swift */,
+				8468424620EE9D0C001ED102 /* TripsViewController.storyboard */,
+			);
+			path = TripsViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				840DF45920DDF19D005516D5 /* LaunchScreen.storyboard in Resources */,
+				8468424720EE9D0C001ED102 /* TripsViewController.storyboard in Resources */,
 				840DF45620DDF19D005516D5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -157,6 +180,7 @@
 				840DF44F20DDF19B005516D5 /* AppDelegate.swift in Sources */,
 				8468423F20EE7AB2001ED102 /* TripFunctions.swift in Sources */,
 				8468424120EE7ACD001ED102 /* Data.swift in Sources */,
+				8468424520EE9CCD001ED102 /* TripsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,7 +318,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6X887258BJ;
-				INFOPLIST_FILE = Itienary/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Itinerary/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,7 +336,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6X887258BJ;
-				INFOPLIST_FILE = Itienary/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Itinerary/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
