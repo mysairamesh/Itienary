@@ -10,6 +10,9 @@
 		840DF44F20DDF19B005516D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840DF44E20DDF19B005516D5 /* AppDelegate.swift */; };
 		840DF45620DDF19D005516D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 840DF45520DDF19D005516D5 /* Assets.xcassets */; };
 		840DF45920DDF19D005516D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840DF45720DDF19D005516D5 /* LaunchScreen.storyboard */; };
+		8468423D20EE7A9D001ED102 /* TripModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8468423C20EE7A9D001ED102 /* TripModel.swift */; };
+		8468423F20EE7AB2001ED102 /* TripFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8468423E20EE7AB2001ED102 /* TripFunctions.swift */; };
+		8468424120EE7ACD001ED102 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8468424020EE7ACD001ED102 /* Data.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +21,9 @@
 		840DF45520DDF19D005516D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		840DF45820DDF19D005516D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		840DF45A20DDF19D005516D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8468423C20EE7A9D001ED102 /* TripModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripModel.swift; sourceTree = "<group>"; };
+		8468423E20EE7AB2001ED102 /* TripFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripFunctions.swift; sourceTree = "<group>"; };
+		8468424020EE7ACD001ED102 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,12 +56,31 @@
 		840DF44D20DDF19B005516D5 /* Itinerary */ = {
 			isa = PBXGroup;
 			children = (
+				8468423A20EE7A3E001ED102 /* Model */,
 				840DF44E20DDF19B005516D5 /* AppDelegate.swift */,
 				840DF45520DDF19D005516D5 /* Assets.xcassets */,
 				840DF45720DDF19D005516D5 /* LaunchScreen.storyboard */,
 				840DF45A20DDF19D005516D5 /* Info.plist */,
 			);
 			path = Itinerary;
+			sourceTree = "<group>";
+		};
+		8468423A20EE7A3E001ED102 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8468424020EE7ACD001ED102 /* Data.swift */,
+				8468423B20EE7A48001ED102 /* Trip */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8468423B20EE7A48001ED102 /* Trip */ = {
+			isa = PBXGroup;
+			children = (
+				8468423C20EE7A9D001ED102 /* TripModel.swift */,
+				8468423E20EE7AB2001ED102 /* TripFunctions.swift */,
+			);
+			path = Trip;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,7 +153,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8468423D20EE7A9D001ED102 /* TripModel.swift in Sources */,
 				840DF44F20DDF19B005516D5 /* AppDelegate.swift in Sources */,
+				8468423F20EE7AB2001ED102 /* TripFunctions.swift in Sources */,
+				8468424120EE7ACD001ED102 /* Data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
