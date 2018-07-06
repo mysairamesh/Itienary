@@ -8,32 +8,39 @@
 
 import UIKit
 
-class TripsViewController: UIViewController, UITableViewDataSource {
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return Data.tripModel.count
-    }
-    
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        var TripCell = tableView.dequeueReusableCell(withIdentifier: "TripCell")
-        if (TripCell == nil)
-        {
-            TripCell = UITableViewCell(style: .default, reuseIdentifier: "TripCell")
-        }
-        TripCell?.textLabel?.text = Data.tripModel[indexPath.row].Title
-        
-        return TripCell!
-    }
+class TripsViewController: UIViewController {
+
     
     @IBOutlet weak var TripsTableView: UITableView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        TripsTableView.delegate = self
         TripsTableView.dataSource = self
         // Do any additional setup after loading the view.
-        TripFunction.readTrips {
-            self.TripsTableView.reloadData()
+        TripFunction.readTrips { [weak self] in
+            self?.TripsTableView.reloadData()
         }
     }
+}
 
+extension TripsViewController:  UITableViewDataSource, UITableViewDelegate
+{
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return Data.tripModel.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
+    {
+        let TripCell = tableView.dequeueReusableCell(withIdentifier: "TripCell") as! TripsTableViewCell
+        
+        TripCell.setup(tripModel: Data.tripModel[indexPath.row])
+        
+        return TripCell
+    }
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 160
+    }
 }
