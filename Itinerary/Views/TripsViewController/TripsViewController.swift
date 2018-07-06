@@ -22,6 +22,7 @@ class TripsViewController: UIViewController {
         TripFunction.readTrips { [weak self] in
             self?.TripsTableView.reloadData()
         }
+        view.backgroundColor = Theme.background
     }
 }
 

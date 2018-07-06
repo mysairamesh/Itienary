@@ -18,6 +18,8 @@
 		8468424920EEADA9001ED102 /* TripsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8468424820EEADA9001ED102 /* TripsTableViewCell.swift */; };
 		8468424C20EF1325001ED102 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8468424B20EF1325001ED102 /* UIViewExtensions.swift */; };
 		8468424F20EF19F5001ED102 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8468424E20EF19F5001ED102 /* Theme.swift */; };
+		8468425120EF1ACD001ED102 /* FugazOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8468425020EF1ACC001ED102 /* FugazOne-Regular.ttf */; };
+		8468425320EF1C30001ED102 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8468425220EF1C30001ED102 /* Colors.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		8468424820EEADA9001ED102 /* TripsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripsTableViewCell.swift; sourceTree = "<group>"; };
 		8468424B20EF1325001ED102 /* UIViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
 		8468424E20EF19F5001ED102 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		8468425020EF1ACC001ED102 /* FugazOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FugazOne-Regular.ttf"; sourceTree = "<group>"; };
+		8468425220EF1C30001ED102 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,7 +129,9 @@
 		8468424D20EF19DF001ED102 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				8468425020EF1ACC001ED102 /* FugazOne-Regular.ttf */,
 				8468424E20EF19F5001ED102 /* Theme.swift */,
+				8468425220EF1C30001ED102 /* Colors.xcassets */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -188,8 +194,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8468425320EF1C30001ED102 /* Colors.xcassets in Resources */,
 				840DF45920DDF19D005516D5 /* LaunchScreen.storyboard in Resources */,
 				8468424720EE9D0C001ED102 /* TripsViewController.storyboard in Resources */,
+				8468425120EF1ACD001ED102 /* FugazOne-Regular.ttf in Resources */,
 				840DF45620DDF19D005516D5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
